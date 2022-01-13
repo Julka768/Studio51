@@ -11,14 +11,15 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
-		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<link href="../css/media.css" rel="stylesheet" type="text/css" />
 
 		<!-- DO ZMIANY GOOGLE FONTS -->
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
 
@@ -31,11 +32,15 @@
 	</head>
 	<body>
 		<header class="navbar">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<div class="container cont-nav">
 					<a class="navbar-brand" href="#"
-						><img class="picture-logo" src="Assets/img/logo51.png" alt="logo"
+						><img
+							class="picture-logo-nav"
+							src="Assets/img/logo51.png"
+							alt="Logo salonu: Studio51"
 					/></a>
+
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -124,32 +129,49 @@
 			</nav>
 		</header>
 
+		<section></section>
+
 		<!-- STOPKA -->
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-sm-12">
-						<div class="footer-logo">
-							<img src="Assets/img/logo51.png" alt="" />
-						</div>
+					<!-- <div class="cont-img-logo-footer"> -->
+					<div class="col-lg-3 col-sm-12 cont-img-logo-footer">
+						<img
+							class="picture-logo-footer"
+							src="Assets/img/logo51.png"
+							alt="Logo salonu: Studio51"
+						/>
 					</div>
-					<div class="col-lg-3 col-sm-12">
-						<div>
-							<h5>Studio 51</h5>
-							<p>
-								Świętokrzyska 55, <br />
-								80-180 Gdańsk <br /><a
-									class="footer-link"
-									href="tel:696-733-399"
-									>696-733-399</a
+					<!-- </div> -->
+					<div class="col-lg-3 col-sm-12 about-salon">
+						<div class="location">
+							<h4 class="tittle-info-footer">Studio 51</h4>
+							<p class="footer-location">Świętokrzyska 55,</p>
+							<p class="footer-location">80-180 Gdańsk</p>
+							<!-- <div class="phone-icon"> -->
+							<p class="footer-location">
+								<a class="footer-link" href="tel:696-733-399"
+									><i class="fas fa-phone"></i>696-733-399</a
 								>
 							</p>
+							<!-- </div> -->
 						</div>
 					</div>
-					<div class="col-lg-3 col-sm-12">
+					<div class="col-lg-3 col-sm-12 about-salon">
 						<div>
-							<h5>Godziny otwarcia</h5>
-							<table>
+							<h4 class="tittle-info-footer">Usługi</h4>
+							<ul>
+								<li><a class="footer-link" href="#">Kosmetyka</a></li>
+								<li><a class="footer-link" href="#">Makijaż permanentny</a></li>
+								<li><a class="footer-link" href="#">Fryzjerstwo</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-12 about-salon">
+						<div>
+							<h4 class="tittle-info-footer">Godziny otwarcia</h4>
+							<table class="opening-hours">
 								<tr>
 									<td class="day">Poniedziałek</td>
 									<td>10-19</td>
@@ -179,16 +201,6 @@
 									<td>Zamknięte</td>
 								</tr>
 							</table>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-12">
-						<div>
-							<h5>Usługi</h5>
-							<ul>
-								<li><a class="footer-link" href="">Kosmetyka</a></li>
-								<li><a class="footer-link" href="">Makijaż permanentny</a></li>
-								<li><a class="footer-link" href="">Fryzjerstwo</a></li>
-							</ul>
 						</div>
 					</div>
 				</div>
