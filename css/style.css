@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Quicksand", sans-serif;
+	color: rgb(233, 227, 227);
+	/* padding: 0 15%; */
+	letter-spacing: 1px;
+}
+
+a {
+	color: rgb(233, 227, 227);
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+/* header nav */
+
+div.container.cont-nav {
+	background: rgb(19 18 18);
+	padding: 1% 2%;
+}
+
+.navbar {
+	padding-top: 0;
+	position: fixed;
+	top: 0;
+}
+
+nav {
+	width: 100%;
+	background: rgb(19 18 18);
+}
+
+.picture-logo-nav {
+	margin: 6% 0 0 3%;
+	height: 2rem;
+	width: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.footer-link:hover {
+	color: #e32124;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(233, 227, 227);
+}
+
+section {
+	height: 200vh;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	background: rgb(19 18 18);
+}
+
+.cont-img-logo-footer {
+	margin: 10% 0;
+}
+
+.picture-logo-footer {
+	height: 3.5rem;
+	width: auto;
+}
+
+.container {
+	background: rgb(19 18 18);
+	padding-bottom: 3%;
+}
+
+.footer-location {
+	margin: 0;
+}
+
+.day {
+	padding: 0 1rem;
+	text-align: left;
+}
+.opening-hours {
+	margin: 0 auto;
+}
+
+.tittle-info-footer {
+	margin-top: 5%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.footer-link i {
+	margin-right: 2%;
+}
