@@ -12,6 +12,7 @@
 			crossorigin="anonymous"
 		/>
 		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<link href="../css/media.css" rel="stylesheet" type="text/css" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,14 +30,15 @@
 	</head>
 	<body>
 		<header class="navbar">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<a class="navbar-brand" href="#"
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<div class="container cont-nav">
+					<a class="navbar-brand" href="/index.html"
 						><img
 							class="picture-logo-nav"
 							src="Assets/img/logo51.png"
 							alt="Logo salonu: Studio51"
 					/></a>
+
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -53,7 +55,7 @@
 							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
-									href="#"
+									href="/kosmetyka.html"
 									id="navbarDropdownMenuLink"
 									role="button"
 									data-bs-toggle="dropdown"
@@ -125,81 +127,90 @@
 			</nav>
 		</header>
 
-		<!-- STOPKA -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="cont-img-logo-footer">
-						<div class="col-lg-3 col-sm-12">
-							<img
-								class="picture-logo-footer"
-								src="Assets/img/logo51.png"
-								alt="Logo salonu: Studio51"
-							/>
+		<main>
+			<!--  -->
+
+			<section class="summary">
+				<div class="container-summary">
+					<div class="row">
+						<div class="col-lg-3 col-sm-12 cont-img-logo-summary">
+							<a href="/index.html">
+								<img
+									class="picture-logo-summary"
+									src="Assets/img/logo51.png"
+									alt="Logo salonu: Studio51"
+								/>
+							</a>
 						</div>
-					</div>
-					<div class="col-lg-3 col-sm-12">
-						<div class="location">
-							<h4>Studio 51</h4>
-							<p>Świętokrzyska 55,</p>
-							<p>80-180 Gdańsk</p>
-							<!-- <div class="phone-icon"> -->
-							<p>
-								<a class="footer-link" href="tel:696-733-399"
-									><i class="fas fa-phone"></i>696-733-399</a
-								>
-							</p>
-							<!-- </div> -->
+						<div class="col-lg-3 col-sm-12 about-salon">
+							<div class="location">
+								<h4 class="tittle-info-summary">Studio 51</h4>
+								<p class="summary-location">Świętokrzyska 55,</p>
+								<p class="summary-location">80-180 Gdańsk</p>
+								<p class="summary-location">
+									<a class="summary-link" href="tel:696-733-399"
+										><i class="fas fa-phone"></i>696-733-399</a
+									>
+								</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-3 col-sm-12">
-						<div>
-							<h4>Godziny otwarcia</h4>
-							<table class="opening-hours">
-								<tr>
-									<td class="day">Poniedziałek</td>
-									<td>10-19</td>
-								</tr>
-								<tr>
-									<td class="day">Wtorek</td>
-									<td>10-19</td>
-								</tr>
-								<tr>
-									<td class="day">Środa</td>
-									<td>10-19</td>
-								</tr>
-								<tr>
-									<td class="day">Czwartek</td>
-									<td>10-19</td>
-								</tr>
-								<tr>
-									<td class="day">Piątek</td>
-									<td>10-19</td>
-								</tr>
-								<tr>
-									<td class="day">Sobota</td>
-									<td>10-15</td>
-								</tr>
-								<tr>
-									<td class="day">Niedziela</td>
-									<td>Zamknięte</td>
-								</tr>
-							</table>
+						<div class="col-lg-3 col-sm-12 about-salon">
+							<div>
+								<h4 class="tittle-info-summary">Usługi</h4>
+								<ul>
+									<li><a class="summary-link" href="#">Kosmetyka</a></li>
+									<li>
+										<a class="summary-link" href="#">Makijaż permanentny</a>
+									</li>
+									<li><a class="summary-link" href="#">Fryzjerstwo</a></li>
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-3 col-sm-12">
-						<div>
-							<h4>Usługi</h4>
-							<ul>
-								<li><a class="footer-link" href="#">Kosmetyka</a></li>
-								<li><a class="footer-link" href="#">Makijaż permanentny</a></li>
-								<li><a class="footer-link" href="#">Fryzjerstwo</a></li>
-							</ul>
+						<div class="col-lg-3 col-sm-12 about-salon">
+							<div>
+								<h4 class="tittle-info-summary">Godziny otwarcia</h4>
+								<table class="opening-hours">
+									<tr>
+										<td class="day">Poniedziałek</td>
+										<td>10-19</td>
+									</tr>
+									<tr>
+										<td class="day">Wtorek</td>
+										<td>10-19</td>
+									</tr>
+									<tr>
+										<td class="day">Środa</td>
+										<td>10-19</td>
+									</tr>
+									<tr>
+										<td class="day">Czwartek</td>
+										<td>10-19</td>
+									</tr>
+									<tr>
+										<td class="day">Piątek</td>
+										<td>10-19</td>
+									</tr>
+									<tr>
+										<td class="day">Sobota</td>
+										<td>10-15</td>
+									</tr>
+									<tr>
+										<td class="day">Niedziela</td>
+										<td>Zamknięte</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+		</main>
+
+		<!-- STOPKA -->
+		<footer>
+			<p>© 2022 Julia Czerwińska</p>
 		</footer>
+		<div class="background"></div>
 	</body>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

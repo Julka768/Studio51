@@ -8,7 +8,25 @@ body {
 	font-family: "Quicksand", sans-serif;
 	color: rgb(233, 227, 227);
 	letter-spacing: 1px;
-	background-color: #333;
+	/* background-color: #333; */
+	height: 100%;
+	position: relative;
+}
+
+.background {
+	filter: blur(3px);
+	max-width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-image: url(../Assets/img/tlo3.1.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 a {
@@ -17,9 +35,17 @@ a {
 	transition: color 0.3s;
 }
 
+a:hover {
+	color: #e32124;
+}
+
 ul {
 	padding: 0;
 	list-style-type: none;
+}
+
+.nav-item .nav-link {
+	white-space: nowrap;
 }
 
 /* HEADER  */
@@ -62,26 +88,9 @@ nav {
 /* SECTION services */
 
 section.services {
-	position: relative;
 	/* height: 100%; */
 	/* width: auto; */
 	margin-top: 5%;
-}
-
-.background {
-	filter: blur(4px);
-	width: 100%;
-	height: 300vh;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	background-image: url(../Assets/img/tło.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 
 .services-container {
@@ -92,6 +101,10 @@ section.services {
 	height: 100%;
 	width: auto;
 	overflow: hidden;
+}
+
+.permament .img-box {
+	position: relative;
 }
 
 .img-box {
@@ -120,19 +133,19 @@ img.p2 {
 }
 
 img.p3 {
-	margin: 30% 20%;
+	margin: 30% 20% 0;
 }
 
-button {
+.cont-subpage {
+	/* position: relative; */
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.subpage {
+	/* position: relative; */
+	padding: 2% 3%;
 	background-color: rgb(19 18 18);
-	color: white;
-	padding: 1% 2%;
-	border: none;
-	transition: color 0.3s;
-}
-
-button:hover {
-	color: #e32124;
 }
 
 /* SECTION SUMMARY  */
@@ -151,9 +164,10 @@ section.summary {
 	width: auto;
 }
 
-.container {
+.container-summary {
 	background: rgb(19 18 18);
 	padding-bottom: 3%;
+	margin-top: 30%;
 }
 
 .summary-location {

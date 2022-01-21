@@ -1,5 +1,31 @@
 /* 576px, 768px, 992px, and 1200px */
 
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+	.img-box img {
+		width: 40%;
+		height: auto;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	img.p1 {
+		margin: 18% 30% 0;
+	}
+
+	img.p2 {
+		margin: 16% 30% 0;
+	}
+
+	img.p3 {
+		margin: 16% 30% 0;
+	}
+	.container-summary {
+		margin-top: 16%;
+	}
+}
+
 @media (min-width: 992px) {
 	ul.navbar-nav {
 		padding-left: 20%;
@@ -10,7 +36,7 @@
 	.about-salon {
 		padding-top: 3%;
 	}
-	.cont-img-logo-footer {
+	.cont-img-logo-summary {
 		padding-top: 4.3%;
 		margin: 0;
 	}
