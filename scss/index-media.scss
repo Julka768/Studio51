@@ -1,4 +1,4 @@
-/* 576px, 768px, 992px, and 1200px */
+@import "global-media.scss";
 
 @media (min-width: 576px) {
 	.img-box img {
@@ -39,39 +39,12 @@
 	img.p3 {
 		margin: 16% 30% 0;
 	}
-	.container-summary {
-		margin-top: 16%;
-	}
 }
 
 @media (min-width: 992px) {
-	ul.navbar-nav {
-		padding-left: 20%;
-	}
-	.picture-logo-nav {
-		margin: 6% 0 0 10%;
-	}
-	.about-salon {
-		padding-top: 3%;
-	}
-	.cont-img-logo-summary {
-		padding-top: 4.3%;
-		margin: 0;
-	}
-
-	.container-summary {
-		margin-top: 7%;
-	}
 }
 
 @media (min-width: 1200px) {
-	ul.navbar-nav {
-		padding-left: 36%;
-	}
-	.picture-logo-nav {
-		margin: 6% 0 0 44%;
-	}
-
 	.services-container {
 		margin-left: 5%;
 		margin-right: 5%;
@@ -79,10 +52,6 @@
 		justify-content: space-evenly;
 		flex-direction: row;
 		text-align: center;
-	}
-
-	.container-summary {
-		margin: 7% 6% 0;
 	}
 
 	.img-box img {

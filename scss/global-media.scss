@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+	.container-summary {
+		margin-top: 16%;
+	}
+}
+
+@media (min-width: 992px) {
+	ul.navbar-nav {
+		padding-left: 20%;
+	}
+	.picture-logo-nav {
+		margin: 6% 0 0 10%;
+	}
+	.about-salon {
+		padding-top: 3%;
+	}
+	.cont-img-logo-summary {
+		padding-top: 4.3%;
+		margin: 0;
+	}
+
+	.container-summary {
+		margin-top: 7%;
+	}
+}
+
+@media (min-width: 1200px) {
+	ul.navbar-nav {
+		padding-left: 36%;
+	}
+
+	.picture-logo-nav {
+		margin: 6% 0 0 44%;
+	}
+
+	.container-summary {
+		margin: 7% 6% 0;
+	}
+}
