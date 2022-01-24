@@ -140,7 +140,7 @@ section.summary {
 
 .tittle-info-summary {
   margin-top: 5%;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-transform: uppercase;
 }
 
@@ -268,7 +268,7 @@ img.p3 {
 .umow-sie-btn{
   background-color: #e32124;
   size: 1.5rem;
-  padding: 1% 2%;
+  padding: 1.5% 2%;
   margin-top: 5%;
   border-radius: 24px;
 }
@@ -300,11 +300,17 @@ a i {
   white-space: nowrap;
   color: #e32124;
   font-size: 1.4rem;
+  text-shadow: black 0.05em 0.05em 0.05em;
+}
+
+.phone i {
+  text-shadow: black 0.05em 0.05em 0.05em;
 }
 
 .phone a {
   color:rgb(202, 7, 7);
   font-weight: 600;
+  text-shadow: black 0.05em 0.05em 0.05em;
 }
 
 
@@ -344,8 +350,31 @@ a i {
 
 
   .na-chwile {
-    color: rgb(255, 0, 0);
+    line-height: 0em;
+    color: #131212;
     margin: 0;
     opacity: 1000;
+  }
+
+
+  .na-chwile::before {
+    content: '';
+    background: linear-gradient(to right, transparent, rgb(202, 7, 7), transparent);
+    position: absolute;
+    left: 0;
+    top: 96%;
+    width: 100%;
+    height: 1px;
+    margin: 0px;
+  }
+
+  .na-chwile::after {
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0.5em;
+    line-height: 1.5em;
+    color: rgb(202, 7, 7);
+    background-color: #131212;
   }
 
