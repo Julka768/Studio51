@@ -1,142 +1,152 @@
+@charset "UTF-8";
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: "Quicksand", sans-serif;
-	color: rgb(233, 227, 227);
-	letter-spacing: 1px;
-	background-color: #333;
-	height: 100%;
-	position: relative;
+  font-family: "Quicksand", sans-serif;
+  color: #e9e3e3;
+  letter-spacing: 1px;
+  height: 100%;
+  position: relative;
 }
 
 .background {
-	filter: blur(4px);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	background-image: url(../Assets/img/tlo.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../Assets/img/tłoxx2.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 a {
-	color: rgb(233, 227, 227);
-	text-decoration: none;
-	transition: color 0.3s;
+  color: #e9e3e3;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #e32124;
 }
 
 ul {
-	padding: 0;
-	list-style-type: none;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-item .nav-link {
+  white-space: nowrap;
 }
 
 /* HEADER  */
-
 div.container.cont-nav {
-	background: rgb(19 18 18);
-	padding: 1% 2%;
+  background: #131212;
+  padding: 1% 2%;
 }
+
 header.navbar {
-	z-index: 1;
+  z-index: 5;
 }
 
 .navbar {
-	padding-top: 0;
-	position: fixed;
-	top: 0;
+  padding-top: 0;
+  position: fixed;
+  top: 0;
 }
 
 nav {
-	width: 100%;
-	background: rgb(19 18 18);
+  width: 100%;
+  background: #131212;
 }
 
 .picture-logo-nav {
-	margin: 6% 0 0 3%;
-	height: 2rem;
-	width: auto;
+  margin: 6% 0 0 3%;
+  height: 2rem;
+  width: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: rgb(233, 227, 227);
-	transition: color 0.3s;
+  color: #e9e3e3;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .summary-link:hover {
-	color: #e32124;
+  color: #e32124;
 }
 
-/* SECTION services */
-
-
-
-
-
-
 /* SECTION SUMMARY  */
-
 section.summary {
-	text-align: center;
-	background: rgb(19 18 18);
+  text-align: center;
+  background: #131212;
 }
 
 .cont-img-logo-summary {
-	margin: 10% 0;
+  margin: 10% 0;
 }
 
 .picture-logo-summary {
-	height: 3.5rem;
-	width: auto;
+  height: 3.5rem;
+  width: auto;
 }
 
 .container-summary {
-	background: rgb(19 18 18);
-	padding-bottom: 3%;
-	margin-top: 30%;
+  background: #131212;
+  padding-bottom: 3%;
+  margin-top: 30%;
 }
 
 .summary-location {
-	margin: 0;
+  margin: 0;
 }
 
 .day {
-	padding: 0 1rem;
-	text-align: left;
+  padding: 0 1rem;
+  text-align: left;
 }
+
 .opening-hours {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .tittle-info-summary {
-	margin-top: 5%;
-	font-weight: bold;
-	text-transform: uppercase;
+  margin-top: 5%;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .summary-link i {
-	margin-right: 2%;
+  margin-right: 2%;
 }
 
 /* FOOTER */
-
 footer {
-	text-align: center;
-	color: rgb(233, 227, 227);
-	background: rgb(19 18 18);
+  text-align: center;
+  color: #e9e3e3;
+  background: #131212;
 }
 
 footer p {
-	margin: 0;
-	padding: 1em 1em;
-	color: rgb(233, 227, 227);
+  margin: 0;
+  padding: 1em 1em;
+  color: #e9e3e3;
 }
+/*# sourceMappingURL=kosmetyka.css.map */

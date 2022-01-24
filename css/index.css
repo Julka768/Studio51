@@ -39,7 +39,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 80vh;
+  height: 60vh;
   max-height: 600px;
   width: 100%;
   padding: 1em;
@@ -160,4 +160,74 @@ footer p {
   padding: 1em 1em;
   color: #e9e3e3;
 }
-/*# sourceMappingURL=global.css.map */
+
+/* SECTION services */
+section.services {
+  /* height: 100%; */
+  /* width: auto; */
+  margin-top: 5%;
+}
+
+.services-container {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.permament .img-box {
+  position: relative;
+}
+
+.img-box {
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-box img {
+  width: 60%;
+  height: auto;
+  /* margin: 30% 20% 0 20%; */
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  z-index: 3;
+}
+
+img.p1 {
+  margin: 35% 20% 0;
+}
+
+img.p2 {
+  margin: 30% 20% 0;
+}
+
+img.p3 {
+  margin: 30% 20% 0;
+}
+
+.cont-subpage {
+  /* position: relative; */
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.subpage {
+  /* position: relative; */
+  padding: 2% 3%;
+  background-color: #131212;
+}
+/*# sourceMappingURL=index.css.map */
