@@ -284,11 +284,19 @@ h2 {
 	color: #999999;
 }
 
+.valid-info {
+	margin-top: 4%;
+}
+
 .more-info {
 	display: flex;
-	justify-content: space-between;
 }
 
 .promo {
 	text-decoration: line-through;
+}
+
+.promo-container {
+	display: flex;
+	justify-content: space-between;
 }

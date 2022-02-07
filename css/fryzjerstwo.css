@@ -282,8 +282,27 @@ h2 {
   color: #999999;
 }
 
+.valid-info {
+  margin-top: 4%;
+}
+
+.more-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .promo {
   text-decoration: line-through;
+}
+
+.promo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .background {
