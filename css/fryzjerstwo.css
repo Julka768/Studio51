@@ -282,16 +282,21 @@ h2 {
   color: #999999;
 }
 
-.more-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .promo {
   text-decoration: line-through;
 }
-/*# sourceMappingURL=global.css.map */
+
+.background {
+  background-image: url(../Assets/img/tlo.hairdressing.jpg);
+}
+
+.women-zone,
+.men-zone {
+  margin: 2% 6%;
+}
+
+.women-table,
+.men-zone {
+  margin-top: 8%;
+}
+/*# sourceMappingURL=fryzjerstwo.css.map */

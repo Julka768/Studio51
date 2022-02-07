@@ -294,4 +294,20 @@ h2 {
 .promo {
   text-decoration: line-through;
 }
-/*# sourceMappingURL=global.css.map */
+
+.background {
+  background-image: url(../Assets/img/tlo.hairdressing.jpg);
+}
+
+.permanent-makeup-zone-anchor {
+  margin: 2% 6%;
+}
+
+.permanent-makeup-zone-anchor {
+  margin-top: 8%;
+}
+
+.container-more-info {
+  margin-top: 1%;
+}
+/*# sourceMappingURL=makijaz-perm.css.map */

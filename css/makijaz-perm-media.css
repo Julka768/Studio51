@@ -47,14 +47,8 @@
     height: 56vh;
     margin-top: 9%;
   }
-  .hands-and-feet-zone,
-  .eye-zone,
-  .make-up-zone,
-  .relaxation-zone,
-  .wax-depilation-zone,
-  .face-zone,
-  .thalgo-treatments,
-  .another {
+  .women-zone,
+  .men-zone {
     margin-left: 8%;
     margin-right: 8%;
   }
@@ -65,7 +59,7 @@
     height: 63vh;
     margin-top: 7%;
   }
-  .hands-and-feet-zone {
+  .women-zone {
     margin-top: -2%;
   }
 }
@@ -79,4 +73,4 @@
     margin: 10%;
   }
 }
-/*# sourceMappingURL=kosmetyka-media.css.map */
+/*# sourceMappingURL=makijaz-perm-media.css.map */
