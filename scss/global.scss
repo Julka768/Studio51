@@ -20,31 +20,6 @@ body {
 	position: relative;
 }
 
-.background {
-	filter: blur(3px);
-	// max-width: 100%;
-	// height: 100%;
-	// position: fixed;
-	// top: 0;
-	// left: 0;
-	// right: 0;
-	// bottom: 0;
-	z-index: -1;
-	background-image: url(../Assets/img/tłoxx2.jpg);
-	background-repeat: repeat;
-	background-position: center;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	height: 80vh;
-	max-height: 600px;
-	width: 100%;
-	padding: 1em;
-	text-align: center;
-}
-
 a {
 	color: $white;
 	text-decoration: none;
@@ -60,11 +35,28 @@ ul {
 	list-style-type: none;
 }
 
+li {
+	list-style-type: none;
+}
+
 .nav-item .nav-link {
 	white-space: nowrap;
 }
 
 /* HEADER  */
+
+.dropdown-menu.show {
+	background-color: $black;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.dropdown-item:hover {
+	color: $red;
+	background-color: $black;
+}
 
 div.container.cont-nav {
 	background: $black;
@@ -147,6 +139,77 @@ section.summary {
 
 /* FOOTER */
 
+.hr-standard {
+	line-height: 1em;
+	position: relative;
+	outline: 0;
+	border: 0;
+	color: black;
+	text-align: center;
+	height: 1.5em;
+	opacity: 100;
+	margin: 0x;
+}
+
+.hr-standard::before {
+	content: "";
+	background: linear-gradient(
+		to right,
+		transparent,
+		rgb(202, 7, 7),
+		transparent
+	);
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 1px;
+	margin: 0px;
+}
+
+.hr-standard::after {
+	position: relative;
+	display: inline-block;
+	color: black;
+	padding: 0.5em;
+	line-height: 1.5em;
+	color: rgb(202, 7, 7);
+	background-color: #131212;
+}
+
+.na-chwile {
+	line-height: 0em;
+	color: #131212;
+	margin: 0;
+	opacity: 1000;
+}
+
+.na-chwile::before {
+	content: "";
+	background: linear-gradient(
+		to right,
+		transparent,
+		rgb(202, 7, 7),
+		transparent
+	);
+	position: absolute;
+	left: 0;
+	top: 96%;
+	width: 100%;
+	height: 1px;
+	margin: 0px;
+}
+
+.na-chwile::after {
+	position: relative;
+	display: inline-block;
+	color: black;
+	padding: 0.5em;
+	line-height: 1.5em;
+	color: rgb(202, 7, 7);
+	background-color: #131212;
+}
+
 footer {
 	text-align: center;
 	color: $white;
@@ -157,4 +220,75 @@ footer p {
 	margin: 0;
 	padding: 1em 1em;
 	color: $white;
+}
+
+.background {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 42vh;
+	width: auto;
+	margin-top: 12%;
+}
+
+.price-list {
+	margin-top: 10%;
+	color: black;
+}
+
+h2 {
+	text-align: center;
+}
+
+.price-service {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+}
+
+.price-service h5 {
+	margin: 0;
+}
+
+.container-separetion {
+	position: relative;
+	width: 70%;
+	padding-left: 1%;
+	margin-right: 2%;
+}
+
+.price-seperation {
+	border-bottom: 2px dotted #434345;
+	border-style: dotted;
+	border-bottom-width: 1px;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+	align-self: left;
+	margin: 0px 10px 0px 10px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 100%;
+}
+
+.price-item {
+	color: $red;
+}
+
+.more-info,
+.valid-info {
+	color: #999999;
+}
+
+.more-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.promo {
+	text-decoration: line-through;
 }

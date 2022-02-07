@@ -1,1 +1,42 @@
 @import "global.scss";
+
+.background {
+	background-image: url(../Assets/img/cosmetic-ylo.jpg);
+}
+
+h6 {
+	display: inline;
+	margin-right: 1%;
+}
+
+.hands-and-feet-zone,
+.eye-zone,
+.make-up-zone,
+.relaxation-zone,
+.wax-depilation-zone,
+.face-zone,
+.thalgo-treatments,
+.another {
+	margin: 2% 6%;
+	margin-top: 8%;
+}
+
+.thalgo-treatments p {
+	margin-bottom: 0.5%;
+}
+
+.thalgo-treatments div {
+	margin-bottom: 0.5%;
+}
+
+.age {
+	margin-top: 3%;
+}
+
+.valid-info {
+	margin: 8% 0;
+}
+
+h6 {
+	color: $black;
+}

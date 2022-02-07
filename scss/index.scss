@@ -1,13 +1,32 @@
 @import "global.scss";
+body {
+	background-color: #c7cac8;
+}
+
+.background {
+	z-index: -1;
+	background-image: url(../Assets/img/logo_tlo.PNG);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 67vh;
+	width: 100%;
+	padding: 1em;
+	text-align: center;
+	z-index: -1;
+}
 
 /* SECTION services */
 section.services {
-	/* height: 100%; */
-	/* width: auto; */
 	margin-top: 5%;
 }
 
 .services-container {
+	margin-top: -265px;
 	position: relative;
 	z-index: 1;
 	display: flex;
@@ -18,8 +37,8 @@ section.services {
 	overflow: hidden;
 }
 
-.permament .img-box {
-	position: relative;
+.click-img img:hover {
+	// width: 65%;
 }
 
 .img-box {
@@ -27,6 +46,7 @@ section.services {
 	top: 0;
 	width: 100%;
 	height: 100%;
+	margin-top: 30%;
 }
 
 .img-box img {
@@ -38,26 +58,40 @@ section.services {
 	z-index: 3;
 }
 
-img.p1 {
-	margin: 35% 20% 0;
+.click-img {
+	transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+		rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+	transform-style: preserve-3d;
 }
 
-img.p2 {
-	margin: 30% 20% 0;
-}
-
+img.p1,
+img.p2,
 img.p3 {
-	margin: 30% 20% 0;
+	margin: 0 20%;
 }
 
 .cont-subpage {
-	/* position: relative; */
+	position: relative;
 	text-align: center;
 	padding-bottom: 3%;
 }
 
-.subpage {
-	/* position: relative; */
+.subpage-kosm {
+	position: absolute;
+	right: 37%;
+	padding: 2% 3%;
+	background-color: $black;
+}
+.subpage-fryz {
+	position: absolute;
+	right: 37%;
+	padding: 2% 3%;
+	background-color: $black;
+}
+
+.subpage-mak-perm {
+	position: absolute;
+	right: 28%;
 	padding: 2% 3%;
 	background-color: $black;
 }

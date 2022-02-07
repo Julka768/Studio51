@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18,34 +17,6 @@ body {
   position: relative;
 }
 
-.background {
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
-  z-index: -1;
-  background-image: url(../Assets/img/tłoxx2.jpg);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 60vh;
-  max-height: 600px;
-  width: 100%;
-  padding: 1em;
-  text-align: center;
-}
-
 a {
   color: #e9e3e3;
   text-decoration: none;
@@ -62,11 +33,28 @@ ul {
   list-style-type: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 .nav-item .nav-link {
   white-space: nowrap;
 }
 
 /* HEADER  */
+.dropdown-menu.show {
+  background-color: #131212;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: #e32124;
+  background-color: #131212;
+}
+
 div.container.cont-nav {
   background: #131212;
   padding: 1% 2%;
@@ -149,6 +137,69 @@ section.summary {
 }
 
 /* FOOTER */
+.hr-standard {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 100;
+  margin: 0x;
+}
+
+.hr-standard::before {
+  content: "";
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ca0707), to(transparent));
+  background: linear-gradient(to right, transparent, #ca0707, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  margin: 0px;
+}
+
+.hr-standard::after {
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0.5em;
+  line-height: 1.5em;
+  color: #ca0707;
+  background-color: #131212;
+}
+
+.na-chwile {
+  line-height: 0em;
+  color: #131212;
+  margin: 0;
+  opacity: 1000;
+}
+
+.na-chwile::before {
+  content: "";
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ca0707), to(transparent));
+  background: linear-gradient(to right, transparent, #ca0707, transparent);
+  position: absolute;
+  left: 0;
+  top: 96%;
+  width: 100%;
+  height: 1px;
+  margin: 0px;
+}
+
+.na-chwile::after {
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0.5em;
+  line-height: 1.5em;
+  color: #ca0707;
+  background-color: #131212;
+}
+
 footer {
   text-align: center;
   color: #e9e3e3;
@@ -161,14 +212,117 @@ footer p {
   color: #e9e3e3;
 }
 
+.background {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 42vh;
+  width: auto;
+  margin-top: 12%;
+}
+
+.price-list {
+  margin-top: 10%;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.price-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.price-service h5 {
+  margin: 0;
+}
+
+.container-separetion {
+  position: relative;
+  width: 70%;
+  padding-left: 1%;
+  margin-right: 2%;
+}
+
+.price-seperation {
+  border-bottom: 2px dotted #434345;
+  border-style: dotted;
+  border-bottom-width: 1px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+  margin: 0px 10px 0px 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 100%;
+}
+
+.price-item {
+  color: #e32124;
+}
+
+.more-info,
+.valid-info {
+  color: #999999;
+}
+
+.promo {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: #c7cac8;
+}
+
+.background {
+  z-index: -1;
+  background-image: url(../Assets/img/logo_tlo.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 67vh;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  z-index: -1;
+}
+
 /* SECTION services */
 section.services {
-  /* height: 100%; */
-  /* width: auto; */
   margin-top: 5%;
 }
 
 .services-container {
+  margin-top: -265px;
   position: relative;
   z-index: 1;
   display: -webkit-box;
@@ -185,15 +339,12 @@ section.services {
   overflow: hidden;
 }
 
-.permament .img-box {
-  position: relative;
-}
-
 .img-box {
   z-index: 2;
   top: 0;
   width: 100%;
   height: 100%;
+  margin-top: 30%;
 }
 
 .img-box img {
@@ -207,26 +358,42 @@ section.services {
   z-index: 3;
 }
 
-img.p1 {
-  margin: 35% 20% 0;
+.click-img {
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+          transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
-img.p2 {
-  margin: 30% 20% 0;
-}
-
+img.p1,
+img.p2,
 img.p3 {
-  margin: 30% 20% 0;
+  margin: 0 20%;
 }
 
 .cont-subpage {
-  /* position: relative; */
+  position: relative;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.subpage {
-  /* position: relative; */
+.subpage-kosm {
+  position: absolute;
+  right: 37%;
+  padding: 2% 3%;
+  background-color: #131212;
+}
+
+.subpage-fryz {
+  position: absolute;
+  right: 37%;
+  padding: 2% 3%;
+  background-color: #131212;
+}
+
+.subpage-mak-perm {
+  position: absolute;
+  right: 28%;
   padding: 2% 3%;
   background-color: #131212;
 }
