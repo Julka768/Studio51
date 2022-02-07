@@ -37,10 +37,6 @@ section.services {
 	overflow: hidden;
 }
 
-.click-img img:hover {
-	// width: 65%;
-}
-
 .img-box {
 	z-index: 2;
 	top: 0;
@@ -52,7 +48,6 @@ section.services {
 .img-box img {
 	width: 60%;
 	height: auto;
-	/* margin: 30% 20% 0 20%; */
 	object-fit: cover;
 	object-position: 50% 50%;
 	z-index: 3;
