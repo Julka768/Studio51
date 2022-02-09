@@ -136,6 +136,15 @@ section.summary {
   margin-right: 2%;
 }
 
+.instagram i {
+  font-size: 20px;
+  margin-top: 7%;
+}
+
+.row {
+  width: 100%;
+}
+
 /* FOOTER */
 .hr-standard {
   line-height: 1em;
@@ -306,7 +315,8 @@ h2 {
 }
 
 body {
-  background-color: #c7cac8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #c7cac8), to(white));
+  background: linear-gradient(to bottom, #c7cac8 23%, white 100%);
 }
 
 .background {
@@ -369,7 +379,6 @@ section.services {
 .img-box img {
   width: 60%;
   height: auto;
-  /* margin: 30% 20% 0 20%; */
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 50%;
@@ -415,5 +424,92 @@ img.p3 {
   right: 28%;
   padding: 2% 3%;
   background-color: #131212;
+}
+
+.about-us {
+  color: #131212;
+  width: 88%;
+  margin: 10% auto;
+}
+
+.about-us h3 {
+  text-align: center;
+}
+
+.container-about-us {
+  background-color: #f7f2f2;
+  margin-top: 4%;
+}
+
+.text-about-us {
+  padding: 4%;
+}
+
+.info-cosmetics {
+  color: #131212;
+  margin-top: 6%;
+}
+
+.info-cosmetics h3 {
+  text-align: center;
+}
+
+.container-cosmetic {
+  width: 90%;
+  margin: 2% auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6%;
+  background-color: #f7f2f2;
+}
+
+.container-cosmetic h4 {
+  text-align: center;
+  margin: 2% 0;
+}
+
+.wrapper-cosmetic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3%;
+}
+
+.img-cosmetic {
+  width: 22%;
+  margin: 1% auto;
+}
+
+.img-cosmetic img {
+  max-width: 100%;
+}
+
+.loreal .text-cosmetic,
+.purles .text-cosmetic,
+.thalgo .text-cosmetic {
+  margin: 2% auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.wrapper-cosmetic .purles {
+  margin-left: 0;
+  margin-right: 3%;
+}
+
+.animal-testing {
+  margin: 8%;
 }
 /*# sourceMappingURL=index.css.map */

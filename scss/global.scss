@@ -1,6 +1,7 @@
 $red: #e32124;
 $black: #131212;
-$white: #e9e3e3;
+$grey: #e9e3e3;
+$white: #f7f2f2;
 
 * {
 	box-sizing: border-box;
@@ -14,14 +15,14 @@ html {
 
 body {
 	font-family: "Quicksand", sans-serif;
-	color: $white;
+	color: $grey;
 	letter-spacing: 1px;
 	height: 100%;
 	position: relative;
 }
 
 a {
-	color: $white;
+	color: $grey;
 	text-decoration: none;
 	transition: color 0.3s;
 }
@@ -84,7 +85,7 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: $white;
+	color: $grey;
 	transition: color 0.3s;
 }
 
@@ -135,6 +136,15 @@ section.summary {
 
 .summary-link i {
 	margin-right: 2%;
+}
+
+.instagram i {
+	font-size: 20px;
+	margin-top: 7%;
+}
+
+.row {
+	width: 100%;
 }
 
 /* FOOTER */
@@ -212,14 +222,14 @@ section.summary {
 
 footer {
 	text-align: center;
-	color: $white;
+	color: $grey;
 	background: $black;
 }
 
 footer p {
 	margin: 0;
 	padding: 1em 1em;
-	color: $white;
+	color: $grey;
 }
 
 .background {

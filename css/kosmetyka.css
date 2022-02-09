@@ -136,6 +136,15 @@ section.summary {
   margin-right: 2%;
 }
 
+.instagram i {
+  font-size: 20px;
+  margin-top: 7%;
+}
+
+.row {
+  width: 100%;
+}
+
 /* FOOTER */
 .hr-standard {
   line-height: 1em;
