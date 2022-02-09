@@ -6,7 +6,7 @@
 
 @media (min-width: 992px) {
   ul.navbar-nav {
-    padding-left: 20%;
+    padding-left: 15%;
   }
   .picture-logo-nav {
     margin: 6% 0 0 10%;
@@ -63,6 +63,9 @@
   .subpage-fryz {
     right: 39%;
   }
+  .animal-testing p {
+    margin: 4% auto 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -96,6 +99,19 @@
   .subpage-fryz {
     right: 41%;
   }
+  .animal-testing p {
+    margin: 4% auto 0;
+  }
+  .promo {
+    margin: 4% 0;
+  }
+  .carousel {
+    width: 86vw;
+    height: 62vh;
+  }
+  .carousel-container {
+    margin: 8% 3%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -114,6 +130,39 @@
   }
   .subpage-fryz {
     right: 42%;
+  }
+  .about-us {
+    width: 78%;
+  }
+  .container-cosmetic {
+    margin-top: 4%;
+    width: 78%;
+  }
+  .wrapper-cosmetic {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .loreal .text-cosmetic,
+  .purles .text-cosmetic,
+  .thalgo .text-cosmetic {
+    margin: 0 auto;
+  }
+  .info-cosmetics {
+    margin-top: 10%;
+  }
+  .animal-testing p {
+    margin: 4% auto 0;
+  }
+  .carousel {
+    width: 77vw;
+  }
+  .carousel-container {
+    margin: 4% 8%;
+  }
+  .about-us {
+    margin: 6% auto;
   }
 }
 
@@ -160,6 +209,21 @@
   .subpage-kosm,
   .subpage-fryz {
     top: -82%;
+  }
+  .animal-testing p {
+    margin: 4% auto 0;
+  }
+  .img-cosmetic {
+    margin: 0;
+  }
+  .carousel {
+    width: 58vw;
+  }
+  .carousel-container {
+    margin: 3% 20%;
+  }
+  .about-us {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=index-media.css.map */

@@ -1,6 +1,7 @@
 @import "global.scss";
 body {
-	background-color: #c7cac8;
+	// background-color: #c7cac8;
+	background: linear-gradient(to bottom, #c7cac8 23%, white 100%);
 }
 
 .background {
@@ -89,4 +90,85 @@ img.p3 {
 	right: 28%;
 	padding: 2% 3%;
 	background-color: $black;
+}
+
+.about-us {
+	color: $black;
+	width: 88%;
+	margin: 10% auto;
+}
+
+.about-us h3 {
+	text-align: center;
+}
+
+.container-about-us {
+	background-color: $white;
+	margin-top: 4%;
+}
+
+.text-about-us {
+	padding: 4%;
+}
+
+.info-cosmetics {
+	color: $black;
+	margin-top: 6%;
+}
+.info-cosmetics h3 {
+	text-align: center;
+}
+
+.container-cosmetic {
+	width: 90%;
+	margin: 2% auto;
+	align-items: center;
+	margin-top: 6%;
+	background-color: rgb(247, 242, 242);
+}
+
+.container-cosmetic h4 {
+	text-align: center;
+	margin: 2% 0;
+}
+
+.wrapper-cosmetic {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3%;
+}
+
+.img-cosmetic {
+	width: 22%;
+	margin: 1% auto;
+}
+
+.img-cosmetic img {
+	max-width: 100%;
+}
+
+// .grow {
+// 	transition: all 0.5s ease-in-out;
+// }
+// .grow:hover {
+// 	transform: scale(2);
+// }
+
+.loreal .text-cosmetic,
+.purles .text-cosmetic,
+.thalgo .text-cosmetic {
+	margin: 2% auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.wrapper-cosmetic .purles {
+	margin-left: 0;
+	margin-right: 3%;
+}
+
+.animal-testing {
+	margin: 8%;
 }
