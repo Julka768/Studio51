@@ -102,6 +102,16 @@
   .animal-testing p {
     margin: 4% auto 0;
   }
+  .promo {
+    margin: 4% 0;
+  }
+  .carousel {
+    width: 86vw;
+    height: 62vh;
+  }
+  .carousel-container {
+    margin: 8% 3%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -142,11 +152,17 @@
   .info-cosmetics {
     margin-top: 10%;
   }
-  .img-cosmetic {
-    width: 30%;
-  }
   .animal-testing p {
     margin: 4% auto 0;
+  }
+  .carousel {
+    width: 77vw;
+  }
+  .carousel-container {
+    margin: 4% 8%;
+  }
+  .about-us {
+    margin: 6% auto;
   }
 }
 
@@ -196,6 +212,18 @@
   }
   .animal-testing p {
     margin: 4% auto 0;
+  }
+  .img-cosmetic {
+    margin: 0;
+  }
+  .carousel {
+    width: 58vw;
+  }
+  .carousel-container {
+    margin: 3% 20%;
+  }
+  .about-us {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=index-media.css.map */
