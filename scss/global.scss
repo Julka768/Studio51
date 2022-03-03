@@ -27,9 +27,9 @@ a {
 	transition: color 0.3s;
 }
 
-a:hover {
-	color: $red;
-}
+// a:hover {
+// 	color: $red;
+// }
 
 ul {
 	padding: 0;
@@ -309,4 +309,8 @@ h2 {
 .promo-container {
 	display: flex;
 	justify-content: space-between;
+}
+
+.text-promo {
+	color: $red;
 }

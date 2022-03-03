@@ -345,6 +345,15 @@ body {
   z-index: -1;
 }
 
+h2,
+h3 {
+  color: #131212;
+}
+
+h3 {
+  text-align: center;
+}
+
 /* SECTION services */
 section.services {
   margin-top: 5%;
@@ -452,10 +461,6 @@ img.p3 {
   margin: 10% auto;
 }
 
-.about-us h3 {
-  text-align: center;
-}
-
 .container-about-us {
   background-color: #f7f2f2;
   margin-top: 4%;
@@ -470,13 +475,40 @@ img.p3 {
           box-shadow: 0 0 30px #131212;
 }
 
+.gift-card {
+  width: 88%;
+  margin: 10% auto;
+}
+
+.gift-card .container-gift-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4%;
+}
+
+.gift-card .container-gift-card .img-gift-card-thalgo {
+  width: 100%;
+}
+
+.gift-card .container-gift-card .img-gift-card-thalgo img {
+  width: 100%;
+}
+
+.gift-card .container-gift-card .text-gift-card {
+  background-color: #f7f2f2;
+  padding: 2%;
+  color: #131212;
+  text-align: center;
+}
+
 .info-cosmetics {
   color: #131212;
   margin-top: 6%;
-}
-
-.info-cosmetics h3 {
-  text-align: center;
 }
 
 .container-cosmetic {
@@ -652,6 +684,36 @@ img.p3 {
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(4):checked ~ .carousel__track {
+  -webkit-transform: translateX(-300%);
+          transform: translateX(-300%);
+}
+
+.carousel__activator:nth-of-type(4):checked ~ .carousel__slide:nth-of-type(3) {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.carousel__activator:nth-of-type(4):checked
+~ .carousel__controls:nth-of-type(4) {
+  display: block;
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(4):checked
+~ .carousel__indicators
+.carousel__indicator:nth-of-type(4) {
+  opacity: 1;
+}
+
 .carousel__control {
   height: 30px;
   width: 30px;
@@ -743,6 +805,11 @@ img.p3 {
           transform: translateX(200%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(4) {
+  -webkit-transform: translateX(300%);
+          transform: translateX(300%);
+}
+
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -777,11 +844,6 @@ img.p3 {
   width: 30px;
 }
 
-h2,
-h3 {
-  color: #131212;
-}
-
 .carousel__slide h3 {
   font-size: 34px;
   line-height: 50px;
@@ -798,21 +860,28 @@ h3 {
 
 .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
-  background-image: url(../Assets/img/promo/makijaz-permamentny.jpg);
+  background-image: url(../Assets/img/promo/zamk.png);
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
-  background-image: url(../Assets/img/promo/zamykanie-naczynek.jpg);
+  background-image: url(../Assets/img/promo/perm.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
-  background-image: url("https://unsplash.it/900?random");
+  background-image: url(../Assets/img/promo/hybryda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(4),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  background-image: url(../Assets/img/promo/Thalgo.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -822,6 +891,11 @@ h3 {
 }
 
 .carousel__slide:hover a {
+  color: #e32124;
+  cursor: pointer;
+}
+
+.carousel__slide:hover h3 {
   color: #e32124;
   cursor: pointer;
 }

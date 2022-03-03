@@ -11,6 +11,7 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
+
 		<link rel="stylesheet" href="./css/index.css" />
 		<link rel="stylesheet" href="./css/index-media.css" />
 
@@ -277,27 +278,145 @@
 					</div>
 				</div>
 			</section>
+			<section class="promo">
+				<div class="carousel-container">
+					<h2>Sprawdź nasze promocje</h2>
+					<div class="carousel my-carousel carousel--translate">
+						<input
+							class="carousel__activator"
+							type="radio"
+							name="carousel"
+							id="F"
+							checked="checked"
+						/>
+						<input
+							class="carousel__activator"
+							type="radio"
+							name="carousel"
+							id="G"
+						/>
+						<input
+							class="carousel__activator"
+							type="radio"
+							name="carousel"
+							id="H"
+						/>
+						<input
+							class="carousel__activator"
+							type="radio"
+							name="carousel"
+							id="I"
+						/>
+						<div class="carousel__controls">
+							<label
+								class="carousel__control carousel__control--backward"
+								for="F"
+							></label>
+							<label
+								class="carousel__control carousel__control--forward"
+								for="G"
+							></label>
+						</div>
+						<div class="carousel__controls">
+							<label
+								class="carousel__control carousel__control--backward"
+								for="G"
+							></label>
+							<label
+								class="carousel__control carousel__control--forward"
+								for="H"
+							></label>
+						</div>
+						<div class="carousel__controls">
+							<label
+								class="carousel__control carousel__control--backward"
+								for="H"
+							></label>
+							<label
+								class="carousel__control carousel__control--forward"
+								for="I"
+							></label>
+						</div>
+						<div class="carousel__controls">
+							<label
+								class="carousel__control carousel__control--backward"
+								for="I"
+							></label>
+							<label
+								class="carousel__control carousel__control--forward"
+								for="F"
+							></label>
+						</div>
+						<div class="carousel__track">
+							<li class="carousel__slide">
+								<h3>
+									<a
+										href="kosmetyka.html#promo-elektrokoagulacja-anchor"
+										target="_self"
+										>Zamykanie naczynek (elektrokoagulacja)</a
+									>
+								</h3>
+							</li>
+							<li class="carousel__slide">
+								<h3>
+									<a href="makijaz-perm.html" target="_self">Makijaż
+										permanentny
+									</h3></a>
+							</li>
+							<li class="carousel__slide">
+								<h3>
+									<a href="" target="_self">Pakiet: hybdryda + zdobienie</a>
+								</h3>
+							</li>
+							<li class="carousel__slide">
+								<h3>
+									<a href="#gift-card" target="_self">
+									Karta Podarunkowe 
+								</a>
+								</h3>
+							</li>
+						</div>
+						<div class="carousel__indicators">
+							<label class="carousel__indicator" for="F"></label>
+							<label class="carousel__indicator" for="G"></label>
+							<label class="carousel__indicator" for="H"></label>
+							<label class="carousel__indicator" for="I"></label>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="about-us">
 				<h3>O nas</h3>
-				<div class="container-about-us">
+				<div class="container-about-us shade">
 					<p class="text-about-us">
 						Czuj się bezpiecznie, z przyjemnością informujemy, że działamy w
 						oparciu o wytyczne funkcjonowania salonów fryzjerskich i
 						kosmetycznych opublikowane przez Ministerstwo Rozwoju z Głównych
 						Inspektorem Sanitarnym. Zrobimy wszystko, by zadbać także o Twój
 						dobry nastrój podczas wizyty. Staramy się przy tym sprostać
-						najwyższej ajkości usług fryzjerskich i kosmetycznych.
+						najwyższej jakości usług fryzjerskich i kosmetycznych.
 					</p>
+				</div>
+			</section>
+			<section class="gift-card" id="gift-card">
+				<h3>Karta podarunkowa</h3>
+				<div class="container-gift-card shade">	
+					<div class="img-gift-card-thalgo">
+						<img src="./Assets/img/promo/Thalgo.jpg" alt="Karta podarunkowa z logo Thalgo">
+					</div>
+					<div class="text-gift-card">
+						<p>Karta podarunkowa na zabiegi kosmetyczne lub fryzjerski to także świetny pomysł na prezent bez okazji. Twój podarunek sprawi bliskiej Ci osobie prawdziwą niespodziankę z gwarancją skutecznej pielęgnacji na najwyższym poziomie.</p>
+					</div>
 				</div>
 			</section>
 			<section class="info-cosmetics">
 				<h3>Kosmetyki na jakich pracujemy</h3>
 				<div class="container-cosmetic loreal">
-					<div class="wrapper-cosmetic">
+					<div class="wrapper-cosmetic shade">
 						<div class="img-cosmetic">
 							<img
 								class="grow"
-								src="Assets/img/loreal1.png"
+								src="Assets/img/cosmetic/loreal1.png"
 								alt="Logo marki L'Oréal."
 							/>
 						</div>
@@ -315,7 +434,7 @@
 					</div>
 				</div>
 				<div class="container-cosmetic purles">
-					<div class="wrapper-cosmetic">
+					<div class="wrapper-cosmetic shade">
 						<div class="text-cosmetic">
 							<h4>Purles</h4>
 							<p>
@@ -328,14 +447,14 @@
 							</p>
 						</div>
 						<div class="img-cosmetic">
-							<img src="Assets/img/purles1.png" alt="Logo marki Purles." />
+							<img src="Assets/img/cosmetic/purles1.png" alt="Logo marki Purles." />
 						</div>
 					</div>
 				</div>
 				<div class="container-cosmetic thalgo">
-					<div class="wrapper-cosmetic">
+					<div class="wrapper-cosmetic shade">
 						<div class="img-cosmetic">
-							<img src="Assets/img/thalgo.jpg" alt="Logo marki Thalgo" />
+							<img src="Assets/img/cosmetic/thalgo.jpg" alt="Logo marki Thalgo" />
 						</div>
 						<div class="text-cosmetic">
 							<h4>Thalgo</h4>
@@ -361,18 +480,24 @@
 				<div class="container-summary">
 					<div class="row">
 						<div class="col-lg-3 col-sm-12 cont-img-logo-summary">
-							<a href="#">
-								<img
-									class="picture-logo-summary"
-									src="Assets/img/logo51.png"
-									alt="Logo salonu: Studio51"
-								/>
-							</a>
+							<div class="maps">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1354.0449623306906!2d18.59424347018483!3d54.320079960848254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd754fe15fdd73%3A0x65cfe445a2559c54!2sStudio%2051!5e0!3m2!1spl!2spl!4v1644395979933!5m2!1spl!2spl"
+									width="350"
+									height="250"
+									allowfullscreen=""
+									loading="lazy"
+								></iframe>
+								<!-- 
+									MAPA
+								
+									style="border: 0" -->
+							</div>
 						</div>
 						<div class="col-lg-3 col-sm-12 about-salon">
 							<div class="location">
 								<h4 class="tittle-info-summary">Studio 51</h4>
-								<p class="summary-location">Świętokrzyska 51,</p>
+								<p class="summary-location">Świętokrzyska 55,</p>
 								<p class="summary-location">80-180 Gdańsk</p>
 								<p class="summary-location">
 									<a class="summary-link" href="tel:696-733-399"
@@ -469,6 +594,21 @@
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"
 	></script>
 </html>
