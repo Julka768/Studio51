@@ -134,6 +134,9 @@
   .about-us {
     width: 78%;
   }
+  .gift-card {
+    width: 78%;
+  }
   .container-cosmetic {
     margin-top: 4%;
     width: 78%;
@@ -224,6 +227,19 @@
   }
   .about-us {
     margin: 0 auto;
+  }
+  .gift-card {
+    width: 78%;
+  }
+  .gift-card .container-gift-card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .gift-card .container-gift-card .img-gift-card-thalgo,
+  .gift-card .container-gift-card .text-gift-card {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=index-media.css.map */
